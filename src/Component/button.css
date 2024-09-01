@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+    to right bottom, rgba(213, 51, 105, 0.8), 
+    rgba(203, 173, 109, 0.8)),
+    url(https://images.unsplash.com/photo-1498248193836-88f8c8d70a3f?auto=format&fit=crop&w=1191&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+  background-size: cover;
+  bacground-position: center;
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.heading-primary-top {
+  display: block;
+  font-size: 55px;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.heading-primary-bottom {
+  display: block;
+  font-size: 18px;
+  letter-spacing: 7px;
+  font-weight: 700;
+}
+/* 
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 100px;
+  padding: 15px 40px;
+  margin-top: 40px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn-call-to-action {
+  background-color: #fff;
+  color: #777;
+  position: relative;
+}
+
+.btn-call-to-action::after {
+  background-color: #fff;
+}
+
+.btn-call-to-action:hover::after {
+  transform: scaleX(1.35) scaleY(1.55);
+  opacity: 0;
+}
+
+.btn-animate {
+  animation: moveUp .7s cubic-bezier(.64,.01,.49,1.76) .75s;
+  animation-fill-mode: backwards;
+} */
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.link{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 12px;
+    padding:12px;
+    
+}
